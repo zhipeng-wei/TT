@@ -1,3 +1,6 @@
+# AAAI-2022 Paper
+Boosting the Transferability of Video Adversarial Examples via Temporal Translation
+
 # Environment
 We provide I2V_attack-env.yml to recover the used environment.
 ```
@@ -43,3 +46,15 @@ python attack_kinetics.py/attack_ucf101.py --gpu 0 --batch_size 1 --model slowfa
 python reference_kinetics.py/reference_ucf101.py --gpu 0 --adv_path your_adv_path
 ```
 * adv_path: name of the output file 
+
+# Citation
+If you use our method for attacks in your research, please consider citing
+```
+@article{Wei2021BoostingTT,
+  title={Boosting the Transferability of Video Adversarial Examples via Temporal Translation},
+  author={Zhipeng Wei and Jingjing Chen and Zuxuan Wu and Yu-Gang Jiang},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2110.09075}
+}
+```
