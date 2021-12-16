@@ -2,9 +2,9 @@
 Boosting the Transferability of Video Adversarial Examples via Temporal Translation
 
 # Environment
-We provide I2V_attack-env.yml to recover the used environment.
+Recover the environment by
 ```
-conda env create -f I2V_attack-env.yml
+conda env create -f TemporalTranslation.yml
 ```
 ## GPU infos
 ```
