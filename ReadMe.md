@@ -1,5 +1,5 @@
 # AAAI-2022 Paper
-Boosting the Transferability of Video Adversarial Examples via Temporal Translation
+Boosting the Transferability of Video Adversarial Examples via Temporal Translation [pdf](https://ojs.aaai.org/index.php/AAAI/article/download/20168/19927)
 
 # Environment
 Recover the environment by
@@ -50,11 +50,13 @@ python reference_kinetics.py/reference_ucf101.py --gpu 0 --adv_path your_adv_pat
 # Citation
 If you use our method for attacks in your research, please consider citing
 ```
-@article{Wei2021BoostingTT,
+@inproceedings{wei2022boosting,
   title={Boosting the Transferability of Video Adversarial Examples via Temporal Translation},
-  author={Zhipeng Wei and Jingjing Chen and Zuxuan Wu and Yu-Gang Jiang},
-  journal={ArXiv},
-  year={2021},
-  volume={abs/2110.09075}
+  author={Wei, Zhipeng and Chen, Jingjing and Wu, Zuxuan and Jiang, Yu-Gang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={3},
+  pages={2659--2667},
+  year={2022}
 }
 ```
